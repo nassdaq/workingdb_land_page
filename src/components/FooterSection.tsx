@@ -8,7 +8,7 @@ const FooterSection = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <a href="#" className="text-2xl font-mono font-bold text-gradient">
-              <img src="../../public/wdb.png" alt="Logo" className="h-16 w-16 inline-block mr-2" />
+              <img src="./images/wdb.png" alt="Logo" className="h-16 w-16 inline-block mr-2" />
               Working<span className="text-white">DB</span>
             </a>
             <p className="text-gray-400 mt-1 text-sm">
