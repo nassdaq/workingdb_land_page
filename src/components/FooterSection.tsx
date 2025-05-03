@@ -45,7 +45,18 @@ const FooterSection = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500 text-sm">
-          <p>© {new Date().getFullYear()} WorkingDB. All rights reserved.</p>
+          <p className="mb-2">© {new Date().getFullYear()} WorkingDB. All rights reserved.</p>
+          <p className="text-gray-400">
+            Source code not publicly available, but will be soon and will be found on{" "}
+            <a 
+              href="https://github.com/nassdaq/workingdb" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-db-primary hover:underline"
+            >
+              https://github.com/nassdaq/workingdb
+            </a>
+          </p>
         </div>
       </div>
     </footer>
