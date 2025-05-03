@@ -154,13 +154,13 @@ const DemoSection = () => {
           
           <div className="mt-8 text-center">
             <a 
-              href="https://github.com/suleiman-nasdaq/workingdb" 
+              href="https://github.com/nassdaq/workingdb" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center text-db-primary hover:text-db-light transition-colors font-mono text-sm"
             >
               <code className="mr-1">git clone</code> 
-              https://github.com/suleiman-nasdaq/workingdb.git
+              https://github.com/nassdaq/workingdb.git
             </a>
           </div>
         </div>

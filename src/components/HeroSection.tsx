@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Github, Terminal } from "lucide-react";
+import { ArrowRight, Github, Terminal, MoreHorizontal } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -17,7 +17,8 @@ const HeroSection = () => {
         
         <p className="text-gray-300 text-lg md:text-xl mb-10 max-w-2xl mx-auto">
           A blazing-fast, Rust-powered key-value store that speaks both Redis and 
-          Memcached protocols — with full persistence between restarts.
+          Memcached protocols, with full persistence between restarts,.. and more 
+          important is not Redis or memcached clone 😎.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
@@ -28,7 +29,7 @@ const HeroSection = () => {
           </a>
           
           <a 
-            href="https://github.com/suleiman-nasdaq/workingdb" 
+            href="https://github.com/nassdaq/workingdb" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn-outline flex items-center gap-2 w-full sm:w-auto justify-center"

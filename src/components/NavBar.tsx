@@ -25,7 +25,7 @@ const NavBar = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <a href="#" className="text-2xl font-mono font-bold text-gradient">
-            Working<span className="text-white">DB</span>
+            <img src="../../public/wdb.png" alt="Logo" className="h-20 w-20 inline-block mr-2" />
           </a>
 
           {/* Desktop Menu */}
@@ -40,7 +40,7 @@ const NavBar = () => {
               Links
             </a>
             <a
-              href="https://github.com/suleiman-nasdaq/workingdb"
+              href="https://github.com/nassdaq/workingdb"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-1 text-white bg-db-darker/80 border border-gray-800 px-4 py-1.5 rounded-md hover:border-db-primary transition-colors"
@@ -84,7 +84,7 @@ const NavBar = () => {
                 Links
               </a>
               <a
-                href="https://github.com/suleiman-nasdaq/workingdb"
+                href="https://github.com/suleimanassdaq/workingdb"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-1 text-white bg-gray-900 border border-gray-800 px-4 py-2 rounded-md hover:border-db-primary transition-colors w-full justify-center"
