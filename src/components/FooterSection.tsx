@@ -46,7 +46,7 @@ const FooterSection = () => {
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500 text-sm">
           <p className="mb-2">© {new Date().getFullYear()} WorkingDB. All rights reserved.</p>
-          <p className="text-gray-400">
+          <p className="text-gray-400 mb-2">
             Source code not publicly available, but will be soon and will be found on{" "}
             <a 
               href="https://github.com/nassdaq/workingdb" 
@@ -55,6 +55,17 @@ const FooterSection = () => {
               className="text-db-primary hover:underline"
             >
               https://github.com/nassdaq/workingdb
+            </a>
+          </p>
+          <p className="text-gray-400">
+            Frontend created with{" "}
+            <a 
+              href="https://lovable.dev" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-db-primary hover:underline"
+            >
+              Lovable
             </a>
           </p>
         </div>
