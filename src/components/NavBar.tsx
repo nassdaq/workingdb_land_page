@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Github, Menu, X } from "lucide-react";
+import {wdb} from "@/components/images/index";
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -25,7 +26,7 @@ const NavBar = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <a href="#" className="text-2xl font-mono font-bold text-gradient">
-            <img src="./images/wdb.png" alt="Logo" className="h-20 w-20 inline-block mr-2" />
+            <img src={wdb} alt="Logo" className="h-20 w-20 inline-block mr-2" />
           </a>
 
           {/* Desktop Menu */}
