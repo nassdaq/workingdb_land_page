@@ -3,7 +3,7 @@ import { Github } from "lucide-react";
 
 const FooterSection = () => {
   return (
-    <footer id="footer" className="bg-db-darker border-t border-gray-800 py-12">
+    <footer id="footer" className="bg-db-darker border-t border-gray-800 py-12 w-full overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
