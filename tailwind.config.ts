@@ -57,10 +57,10 @@ export default {
 				db: {
 					dark: "#121212",
 					darker: "#0A0A0A",
-					primary: "#9b87f5",
-					secondary: "#7E69AB",
-					accent: "#6E59A5",
-					light: "#D6BCFA",
+					primary: "#414771", // Updated to the requested color
+					secondary: "#363B5D", // Slightly darker shade of the primary
+					accent: "#2D3251", // Even darker shade for accents
+					light: "#8690BB", // Lighter shade for contrast
 				}
 			},
 			fontFamily: {

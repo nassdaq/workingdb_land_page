@@ -99,7 +99,7 @@ const DemoSection = () => {
             </button>
           </div>
 
-          <div className="terminal animate-fade-in shadow-[0_0_15px_rgba(155,135,245,0.15)]">
+          <div className="terminal animate-fade-in shadow-[0_0_15px_rgba(65,71,113,0.15)]">
             <div className="terminal-header">
               <div className="terminal-dot bg-red-500"></div>
               <div className="terminal-dot bg-yellow-500"></div>

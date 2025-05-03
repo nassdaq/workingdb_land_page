@@ -16,8 +16,8 @@
     --popover: 240 10% 3.9%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 252 80% 75%;
-    --primary-foreground: 252 4% 10%;
+    --primary: 231 25% 35%; /* Updated to #414771 in HSL */
+    --primary-foreground: 0 0% 98%;
 
     --secondary: 240 3.7% 15.9%;
     --secondary-foreground: 0 0% 98%;
@@ -33,7 +33,7 @@
 
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
-    --ring: 252 80% 75%;
+    --ring: 231 25% 35%; /* Updated to match primary */
     --radius: 0.5rem;
   }
 }
@@ -65,7 +65,7 @@
     left: -25%;
     width: 150%;
     height: 150%;
-    background: radial-gradient(circle at center, rgba(155, 135, 245, 0.15) 0%, rgba(0, 0, 0, 0) 70%);
+    background: radial-gradient(circle at center, rgba(65, 71, 113, 0.15) 0%, rgba(0, 0, 0, 0) 70%);
     pointer-events: none;
     z-index: -1;
   }
