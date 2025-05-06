@@ -17,9 +17,9 @@ const FooterSection = () => {
               One Engine. Two Protocols. Zero Nonsense.
             </p>
           </div>
-          
+
           <div className="flex flex-wrap justify-center gap-8">
-            <a 
+            <a
               href="https://github.com/nassdaq/workingdb"
               target="_blank"
               rel="noopener noreferrer"
@@ -28,7 +28,7 @@ const FooterSection = () => {
               <Github size={18} className="mr-2" />
               GitHub
             </a>
-            <a 
+            <a
               href="https://github.com/nassdaq/workingdb/blob/main/README.md"
               target="_blank"
               rel="noopener noreferrer"
@@ -36,7 +36,7 @@ const FooterSection = () => {
             >
               Docs
             </a>
-            <a 
+            <a
               href="https://github.com/nassdaq/workingdb/blob/main/LICENSE"
               target="_blank"
               rel="noopener noreferrer"
@@ -46,14 +46,13 @@ const FooterSection = () => {
             </a>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500 text-sm">
           <p className="mb-2">© {new Date().getFullYear()} WorkingDB. All rights reserved.</p>
           <p className="text-gray-400 mb-2">
-            Source code not publicly available, but will be soon and will be found on{" "}
-            <a 
-              href="https://github.com/nassdaq/workingdb" 
-              target="_blank" 
+            <a
+              href="https://github.com/nassdaq/workingdb"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-db-primary hover:underline"
             >
@@ -62,9 +61,9 @@ const FooterSection = () => {
           </p>
           <p className="text-gray-400">
             Frontend created with{" "}
-            <a 
-              href="https://lovable.dev" 
-              target="_blank" 
+            <a
+              href="https://lovable.dev"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-db-primary hover:underline"
             >
